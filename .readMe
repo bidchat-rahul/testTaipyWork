@@ -1,0 +1,54 @@
+Project Name: Taipy App
+Project Description: This is a sample Taipy application.
+Project Author: Rahul Harmalkar
+Project Creation Date: 06-12-2024
+Project Version: 0.0.1
+Project License: MIT
+
+Project Setup:
+created a project directory: 
+ mkdir testTaipyWork
+ cd testTaipyWork
+
+ git init
+
+created a virtual environment:
+ python3 -m venv venv_testTaipyWork
+source venv_testTaipyWork/bin/activate  # On Windows: venv_testTaipyWork\Scripts\activate
+
+Note: The `venv_testTaipyWork` folder is specifically for the virtual environment and should not contain any of your project's source code.
+
+Install Taipy: 
+ pip install taipy
+
+if fails then check 
+cmake --version
+brew install cmake
+
+pip install --upgrade pip setuptools wheel
+brew reinstall cmake
+pip install --upgrade pip
+pip install pyarrow
+brew install apache-arrow
+pip install pyarrow
+pip install taipy --no-deps
+pip install pyarrow
+
+
+Run the app: 
+ python3 main.py
+
+pip install deepdiff
+
+
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/bidchat-rahul/testTaipyWork.git
+git branch -M main
+git push -u origin main
+
+
+to find libraries:
+ pip list
+ pip list | grep taipy
+
